@@ -1,0 +1,5 @@
+y = [1,4,22,55,44,77,88]
+print("list:" , y)
+result = map(lambda x : x*x, y)
+print("result")
+print(list(result))
