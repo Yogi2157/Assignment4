@@ -1,5 +1,2 @@
-numbers = [25,44,1,22,78,45]
-print("list:" , numbers)
-result  = map(lambda x : x**3, numbers)
-print("result")
-print(list(result))
+Add = lambda x : x+25
+print(Add(100))
