@@ -1,5 +1,5 @@
 numbers = [1,23,34,65,87]
 print("list:" , numbers)
-result = map(lambda X : X**3, numbers)
+result = map(lambda X : X*3, numbers)
 print("result")
 print(list(result))
