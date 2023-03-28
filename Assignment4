@@ -1,3 +1,5 @@
-V = lambda x : x+25
-print(V(100))
-
+numbers = [25,44,1,22,78,45]
+print("list:" , numbers)
+result  = map(lambda x : x**3, numbers)
+print("result")
+print(list(result))
